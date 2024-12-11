@@ -1,0 +1,95 @@
+/* Remove left sidebar styles */
+.sidebar {
+    display: none;
+}
+
+/* Top Bar Layout */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #343a40; /* Dark background */
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+/* Navigation Bar Styling */
+.top-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+    .nav-link:hover {
+        color: #0071c1;
+    }
+
+/* Main Content Layout */
+.main-content {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+/* Layout Styling */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures footer is pushed to the bottom */
+}
+
+/* General Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Featured Image Styling */
+.image-container img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-height: 300px; /* Slightly smaller than the Home page for better balance */
+    object-fit: cover;
+}
+
+/* Section Styling */
+.info-section {
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+    .info-section p {
+        margin-bottom: 1rem;
+    }
+
+    .info-section strong {
+        color: #1b6ec2;
+    }
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    width: 100%;
+    position: relative; /* Ensures footer spans entire width */
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #dee2e6; /* Subtle top border */
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
